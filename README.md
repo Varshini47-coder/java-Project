@@ -1,8 +1,8 @@
-Tea Shop Record Management Console Application
+**Tea Shop Record Management Console Application**
 
 This project is a simple console-based application built using Java to manage tea shop details.This application demonstrates how Java can be used to build a basic data management system using object-oriented and collection-based approaches.he system allows users to input tea shop details, store them, and view all stored data using a structured, menu-driven approach. It utilizes Java Collections Framework — particularly List, Map, and for-each loops — to manage dynamic records efficiently.
 
-🎯 Key Features:
+🎯*Key Features*:
 Insert Tea Shop Details
 Accepts input in a comma-separated format including:
 
@@ -31,7 +31,7 @@ Iterates through the list of maps and prints the stored details of all tea shops
 Exit Option
 Ends the program cleanly.
 
-🛠️ Technical Concepts Used:
+🛠️ **Technical Concepts Used**:
 Scanner
 For user input from the console.
 
@@ -50,7 +50,7 @@ Used to loop through arrays and collections elegantly.
 Validation
 Ensures users input all required fields to prevent runtime errors (like IndexOutOfBoundsException).
 
-🔄 Program Flow:
+🔄 **Program Flow:**
 Display Menu (Options 1 to 4).
 
 User selects:
@@ -67,19 +67,19 @@ Steps 1 & 2 are repeated for each new tea shop.
 
 Option 3 displays all shops added so far.
 
-Validation Logic:
+**Validation Logic:**
 Checks if input contains all required fields before storing.
 
 Prevents null or incomplete input from being saved.
 
 Ensures graceful error messages instead of crashes.
 
-📌 Sample Input Format:
+📌 **Sample Input Format:**
 mathematica
 Copy
 Edit
 Chai Point,Raj,4,Ginger Tea,Masala Chai
-Use Case:
+**Use Case:**
 This application can be used as a foundational system for:
 
 Small business inventory records
